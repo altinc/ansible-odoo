@@ -46,7 +46,7 @@ odoo_nodejs_apt_package: "nodejs=6.*"
 odoo_nodejs_apt_repo: "node_6.x"
 odoo_npm_packages:
     - name: less
-      version: 2.7.2
+      version: 3.0.2
     - name: less-plugin-clean-css
       version: 1.5.1
     - name: phantomjs-prebuilt
