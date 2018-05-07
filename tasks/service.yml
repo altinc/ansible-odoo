@@ -67,7 +67,7 @@
   when: odoo_install_type == 'pip'
 
 - name: Enable Odoo service
-  service: name={{ odoo_service }} enabled=yes state=started
+  service: name={{ odoo_service }} enabled=yes state=stopped
   when: odoo_init == True
 
 - name: Disable Odoo service
